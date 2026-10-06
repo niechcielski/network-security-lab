@@ -8,4 +8,4 @@ If Computer A wants to talk to Computer B on the same network, it asks everyone 
 Computer B answers with specific MAC address (ARP Reply).
 
 ## Security context
-Because ARP doesn't verify who is answering, a hacker can act like the router and ask to send data to himself". This attack is called ARP Spoofing.
+Because ARP doesn't verify who is answering, a hacker can act like the router and ask to send data to himself. This attack is called ARP Spoofing.
