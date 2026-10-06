@@ -13,5 +13,3 @@ Before sending any real data, TCP must establish a connection between two machin
 When we use Nmap to scan ports, it uses this exact mechanism to check if a service is running:
 - If a port is **open**, the server replies to Nmap with a **SYN-ACK**.
 - If a port is **closed**, the server replies with an **RST**.
-
-Understanding this handshake is the key to reading Wireshark traffic.
